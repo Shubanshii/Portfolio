@@ -52,6 +52,52 @@ section {
     margin-bottom: 5%;
 }
 
+.project {
+    margin-bottom: 5%;
+}
+
+.btn-dark {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 1.2em;
+  background: #01213b;
+  padding: 5px 16px;
+  text-decoration: none;
+  border: none;
+  min-width: 134px;
+  border: 2px solid #01213b;
+}
+
+.btn-dark:hover {
+  cursor: pointer;
+  background-color: #063B67;
+  border: 2px solid #063B67;
+}
+
+.btn-light {
+  font-family: 'Lato', sans-serif;
+  color: #01213b;
+  font-size: 1.2em;
+  background: #ffffff;
+  padding: 5px 16px;
+  text-decoration: none;
+  border: none;
+  min-width: 134px;
+  margin-left: 10px;
+  border: 2px solid #01213b;
+}
+
+.btn-light:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #063B67;
+  border: 2px solid #063B67;
+}
+
+.marg-clear-l {
+  margin-left: 0 !important;
+}
+
 /* section:nth-child(even) {
   background-color: #ddd;
 } */
@@ -62,6 +108,7 @@ section {
 
 img {
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .project-tech {
