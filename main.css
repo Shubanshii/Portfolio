@@ -5,7 +5,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #444;
+  /* color: #444; */
   text-align: center;
   line-height: 1.5;
 }
@@ -13,7 +13,7 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  /* background-color: #aaa; */
 }
 
 nav {
@@ -22,29 +22,54 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  border-bottom: 1px solid #8c99a3;
 }
 
+nav > a {
+    color: black;
+    margin-right: 10px;
+}
 
+a:first-child {
+    font-size: 25px;
+}
+
+main {
+    margin-top: 100px;
+}
 
 header {
   padding: 12% 0;
 }
 
 section {
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
+  /* min-height: 200px; */
+  padding: 2% 0;
+  /* background-color: #bbb; */
 }
 
-section:nth-child(even) {
+.bio {
+    margin-bottom: 5%;
+}
+
+/* section:nth-child(even) {
   background-color: #ddd;
+} */
+
+.email {
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
 }
 
 .project-tech {
   margin-top: 19.200px;
+  margin-bottom: 50px;
 }
 
 .tech-icon {
-  color: #4b4b4b;
+  /* color: #4b4b4b; */
   height: 1.3em;
 }
