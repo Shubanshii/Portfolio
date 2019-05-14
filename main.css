@@ -52,6 +52,10 @@ section {
     margin-bottom: 5%;
 }
 
+.preview > a > img {
+  width: 50%;
+}
+
 .project {
     margin-bottom: 5%;
 }
