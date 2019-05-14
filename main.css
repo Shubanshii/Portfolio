@@ -23,6 +23,7 @@ nav {
   right: 0;
   z-index: 10;
   border-bottom: 1px solid #8c99a3;
+  background-color: #CAC728;
 }
 
 nav > a {
