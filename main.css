@@ -126,3 +126,9 @@ img {
   /* color: #4b4b4b; */
   height: 1.3em;
 }
+
+@media (min-width: 576px) { 
+  .gangster-info {
+    padding: 5%;
+  }
+}
